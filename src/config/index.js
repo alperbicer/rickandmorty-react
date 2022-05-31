@@ -1,0 +1,5 @@
+export default {
+  APP_TITLE: process.env.APP_TITLE,
+  API_TIMEOUT_MS: process.env.APP_API_TIMEOUT_MS,
+  RICK_AND_MORTY_API_GW_BASE_URL: process.env.APP_RICK_AND_MORTY_API_GW_BASE_URL,
+};
