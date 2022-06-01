@@ -18,7 +18,7 @@ function App() {
   useEffect(() => {
     dispatch(fetchOrganizationDataPublic(1));
   }, [dispatch]);
-  useEffect(() => { // This change the name of the page when reducer updates
+  useEffect(() => {
     document.title = list.name;
   });
   return (

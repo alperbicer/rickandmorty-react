@@ -16,9 +16,7 @@ export const Button = styled.button`
   
   &:hover {
     color: ${({ theme }) => theme.primaryLight};
-    /* background-color: ${({ theme }) => theme.primaryDark}; */
     background-color: var(--black-01);
-    /* border: 2px solid ${({ theme }) => theme.primaryLight}; */
   }
   transition: all .3s ease, visibility 0s;
 

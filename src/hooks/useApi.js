@@ -8,7 +8,6 @@ const useApi = (url) => {
       .then(respuestaJson => {
         setLoading(true);
         setData(respuestaJson.data);
-        // console.log(respuestaJson);
       })
       .catch(error => console.log(error));
   };

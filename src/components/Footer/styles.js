@@ -5,10 +5,7 @@ const center = styled.div`
   justify-content: center;
 `;
 export const Container = styled(center)`
-
-
 position: relative;
-bottom:  -355px; // you can adjust the negative value
 z-index: -1;
 text-align: center;
 width: 100%;
@@ -33,7 +30,6 @@ export const Organization = styled(center)`
 `;
 export const Name = styled.h2``;
 export const Href = styled.a`
-  
   display: flex;
   justify-content: center;
 `;

@@ -19,7 +19,6 @@ export const StyledMenuTemplate = styled.nav`
   padding: 1rem;
   position: absolute;
   top: 0;
-  /* left: 0; */
   transition: transform 0.3s ease-in-out;
   width: 80% ;
   z-index: 0;

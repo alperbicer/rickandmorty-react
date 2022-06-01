@@ -9,9 +9,6 @@ import {
   Name,
   Href,
   LinkedIn,
-  OrganizationData,
-  Adress,
-  Phone,
 } from './styles';
 const UrlLogo = ({ href, logo }) => {
   return (
@@ -33,14 +30,6 @@ export default function Footer() {
             <UrlLogo href={organization.urlLinkedin} logo={linkLogo} />
           </LinkedIn>
         </SocialMedia>
-        <OrganizationData>
-          <Adress>
-            <h4>{organization.address}</h4>
-          </Adress>
-          <Phone>
-            <h4>{organization.phone}</h4>
-          </Phone>
-        </OrganizationData>
       </Grid>
     </Container>
   );

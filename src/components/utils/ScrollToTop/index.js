@@ -26,7 +26,6 @@ const Container = styled.div`
   height: 1px;
   left: 1px;
   position: absolute;
-  /* ${props => props.showButtonAt && `top: ${props.showButtonAt};`} */
   top: ${props => props.showButtonAt}px;
   width: 1px;
 `;

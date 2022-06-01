@@ -1,4 +1,3 @@
-import config from 'config';
 export default axiosInstance => {
   axiosInstance.interceptors.response.use(
     res => {
@@ -14,7 +13,7 @@ export default axiosInstance => {
     },
     err => {
       if (err?.response?.status === 401) {
-        document.location.href = config.LOGIN_URL;
+        document.location.href = process.env.LOGIN_URL;
       }
       if (
         String(err?.response?.status).startsWith('4') &&

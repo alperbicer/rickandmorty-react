@@ -1,6 +1,6 @@
 export const links = [
   {
-    name: 'Anasayfa',
-    path: '/',
+    name: 'Episodes',
+    path: '/episode',
   },
 ];

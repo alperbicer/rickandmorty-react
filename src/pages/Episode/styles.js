@@ -1,4 +1,7 @@
 import styled from 'styled-components';
-export const Container = styled.div`
-  color: black;
+export const Episode = styled.h1`
+  color: ${({ theme }) => theme.primaryHover};
+`;
+export const EpisodeName = styled.h2`
+  color: ${({ theme }) => theme.linkHover};
 `;
